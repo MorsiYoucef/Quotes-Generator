@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Philosopher:ital,wght@0,700;1,400&family=Rubik:wght@300&family=Sedgwick+Ave+Display&display=swap');
+* {
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url("backgroundweb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    gap: 20px;
+    /* font-family: 'Nosifer', sans-serif; */
+    font-family: 'Philosopher', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid maroon;
+    border-radius: 15px;
+    background-color: wheat;
+    padding: 50px;
+    width: 400px;
+    gap: 20px;
+    text-align: center;
+    font-size: large;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    
+    border: 2px solid white;
+}
+.person{
+    letter-spacing: 5px;
+    color: maroon;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+button:hover{
+    
+    background-color: maroon;
+    color: white;
+      
+}
